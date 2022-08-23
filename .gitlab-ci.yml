@@ -4,7 +4,7 @@ stages:
 Package iOS:
  stage: iOS
  script:
-    - echo "Rushang"
+    - xcodebuild archive -workspace FyndXcframework.xcworkspace -scheme FyndXcframework -destination "generic/platform=iOS Simulator" -archivePath "archives/fyndFDK-iOS-Simulator" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
  tags:
     - ios,xcode
  only:
@@ -18,6 +18,7 @@ Package iOS:
 #    - git, ssh
 # only:
 #    - feature/create-framework
+
 
 
 #Create Alamofire:
