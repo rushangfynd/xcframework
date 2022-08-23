@@ -1,6 +1,0 @@
-[init]
-	defaultBranch = none
-[fetch]
-	recurseSubmodules = false
-[http "https://gitlab.com"]
-	sslCAInfo = /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/builds/rbxHeeN2/0/rushangprajapati/fyndxcframework.tmp/CI_SERVER_TLS_CA_FILE
