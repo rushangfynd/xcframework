@@ -1,16 +1,18 @@
 PODS:
-  - JSONWebToken (2.2.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
 
 DEPENDENCIES:
-  - JSONWebToken
+  - SDWebImage
 
 SPEC REPOS:
   trunk:
-    - JSONWebToken
+    - SDWebImage
 
 SPEC CHECKSUMS:
-  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
 
-PODFILE CHECKSUM: 5abbba55d2b4379ccc5242f78b0d4496e8820f57
+PODFILE CHECKSUM: 74dd52f57cb9bbbd3bc3280583d85fc282ce0df0
 
 COCOAPODS: 1.11.3
