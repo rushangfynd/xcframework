@@ -1,12 +1,12 @@
 stages:
-    - Archive
-    - Archive
+    - Archive iOS
+    - Archive Simulator
     - create Alamofire
     - create CryptoSwift
     - create FDKClient
     
 Package Archive:
- stage: Archive
+ stage: Archive iOS
  script:
     - xcodebuild archive -workspace fyndFDK.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS" -archivePath "archives/fyndFDK-iOS" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
     - bundle exec fastlane customLane
@@ -16,7 +16,7 @@ Package Archive:
     - feature/create-framework
 
 Package Archive:
- stage: Archive
+ stage: Archive Simulator
  script:
     - xcodebuild archive -workspace fyndFDK.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS Simulator" -archivePath "archives/fyndFDK-iOS-Simulator" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
  tags:
