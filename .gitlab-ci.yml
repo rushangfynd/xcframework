@@ -6,7 +6,7 @@ Package iOS:
  script:
     - echo "Rushang"
  tags:
-    - demo,rushang
+    - ios,xcode
  only:
     - feature/create-framework
     
