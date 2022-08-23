@@ -313,10 +313,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 871D283B6B8CA6D2040895F7 /* Pods-FyndXcframework.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LNED8E26QN;
+				DEVELOPMENT_TEAM = 4XQLJ9A7S4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -342,10 +344,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83A81B8BF89A0DFAF14FE9A5 /* Pods-FyndXcframework.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LNED8E26QN;
+				DEVELOPMENT_TEAM = 4XQLJ9A7S4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
