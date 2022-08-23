@@ -8,7 +8,7 @@ stages:
 Package Archive:
  stage: Archive iOS
  script:
-    - xcodebuild archive -workspace fyndFDK.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS" -archivePath "archives/fyndFDK-iOS" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+    - xcodebuild archive -workspace FyndXcframework.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS" -archivePath "archives/fyndFDK-iOS" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
     - bundle exec fastlane customLane
  tags:
     - git, ssh
@@ -18,7 +18,7 @@ Package Archive:
 Package Archive:
  stage: Archive Simulator
  script:
-    - xcodebuild archive -workspace fyndFDK.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS Simulator" -archivePath "archives/fyndFDK-iOS-Simulator" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+    - xcodebuild archive -workspace FyndXcframework.xcworkspace -scheme fyndFDK -destination "generic/platform=iOS Simulator" -archivePath "archives/fyndFDK-iOS-Simulator" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
  tags:
     - git, ssh
  only:
@@ -50,4 +50,3 @@ Create FDKClient:
     - git, ssh
  only:
     - feature/create-framework
-
