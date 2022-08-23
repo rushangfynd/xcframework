@@ -50,3 +50,4 @@ Create FDKClient:
     - git, ssh
  only:
     - feature/create-framework
+
