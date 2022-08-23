@@ -1,6 +1,5 @@
 stages:
-    - Simulator
-    - iOS
+     - iOS
 #    - create Alamofire
 #    - create CryptoSwift
 #    - create FDKClient
