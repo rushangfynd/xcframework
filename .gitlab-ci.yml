@@ -30,7 +30,7 @@ Create Alamofire:
  script:
     - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
  tags:
-    - git, ssh
+    - ios,xcode
  only:
     - feature/create-framework
 
@@ -39,7 +39,7 @@ Create CryptoSwift:
  script:
     - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
  tags:
-    - git, ssh
+    - ios,xcode
  only:
     - feature/create-framework
 
@@ -48,6 +48,6 @@ Create FDKClient:
  script:
     - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
  tags:
-    - git, ssh
+    - ios,xcode
  only:
     - feature/create-framework
