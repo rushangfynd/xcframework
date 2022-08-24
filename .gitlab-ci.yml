@@ -30,7 +30,7 @@ Package Simulator:
 Create Alamofire:
  stage: create Alamofire
  script:
-    - xcodebuild -create-xcframework -framework /Users/$USER/Documents/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/$USER/Documents/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/$USER/Documents/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/$USER/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output /Users/$USER/Documents/Alamofire.xcframework
+    - xcodebuild -create-xcframework -framework /Users/$USER/Documents/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/$USER/Documents/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/$USER/Documents/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/$USER/Documents/archives/fyndFDK-iOS.xcarchive/dSYMs -output /Users/$USER/Documents/Alamofire.xcframework
  tags:
     - ios,xcode
  only:
