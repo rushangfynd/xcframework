@@ -1,6 +1,0 @@
-framework module FyndXcframework {
-  umbrella header "FyndXcframework.h"
-
-  export *
-  module * { export * }
-}

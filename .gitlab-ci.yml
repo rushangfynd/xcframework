@@ -28,7 +28,7 @@ Package Simulator:
 Create Alamofire:
  stage: create Alamofire
  script:
-    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
+    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/Alamofire.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/Alamofire.xcframework
  tags:
     - ios,xcode
  only:
@@ -37,7 +37,7 @@ Create Alamofire:
 Create CryptoSwift:
  stage: create CryptoSwift
  script:
-    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
+    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/CryptoSwift.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/CryptoSwift.xcframework
  tags:
     - ios,xcode
  only:
@@ -46,7 +46,7 @@ Create CryptoSwift:
 Create FDKClient:
  stage: create FDKClient
  script:
-    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output FDKFyndJSK.xcframework
+    - xcodebuild -create-xcframework -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS-Simulator.xcarchive/dSYMs -framework /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/Products/Library/Frameworks/FDKClient.framework -debug-symbols /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/archives/fyndFDK-iOS.xcarchive/dSYMs -output /Users/rushangprajapati/Documents/FyndProject/fyndxcframework/FDKClient.xcframework
  tags:
     - ios,xcode
  only:
