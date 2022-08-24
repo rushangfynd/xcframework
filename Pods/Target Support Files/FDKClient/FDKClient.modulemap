@@ -1,6 +1,0 @@
-framework module FDKClient {
-  umbrella header "FDKClient-umbrella.h"
-
-  export *
-  module * { export * }
-}
